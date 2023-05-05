@@ -36,6 +36,8 @@ In the development process, as part of researching other websites and notes, I'v
 
 IMPORTANT NOTE: API-KEY which i used is registsered for limit number of uses.
 
+PUBLIC URL : https://6455324e06844b0c588a0791--cerulean-sherbet-a155a8.netlify.app/
+
 Name of the student: Pamula Sreshta
 Student ID: SRE21537020
 
