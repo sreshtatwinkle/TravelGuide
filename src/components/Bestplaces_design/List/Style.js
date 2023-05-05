@@ -1,4 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
+import styled from 'styled-components';
 
 export default makeStyles((theme) => ({
   formControl: {
@@ -19,4 +20,13 @@ export default makeStyles((theme) => ({
   list: {
     height: '75vh', overflow: 'auto',
   },
-}));
+}
+));
+  export const Responsive_page= styled.div`
+
+  @media (max-width: 950px) {
+      width: 230%;
+      
+  }
+  `;
+

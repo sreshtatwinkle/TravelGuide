@@ -10,7 +10,7 @@ function Navbar(){
         <NavbarIntTrack>
           <LeftnavTrack>
             <NavLinks>
-                    <NavbarLinks to="/Homepage">Home</NavbarLinks>
+                    <NavbarLinks to="/">Home</NavbarLinks>
                     <NavbarLinks to="/Aboutus" >Aboutus</NavbarLinks>
                     <NavbarLinks to="/Plans" >Best Places</NavbarLinks>
                     <NavbarLinks to="/Contact" >Contact</NavbarLinks>
@@ -29,7 +29,7 @@ function Navbar(){
         </NavbarIntTrack>
         {extendnav && (
         <NavbarExtTrack>
-            <NavbarLinksextend to="/Homepage">Home</NavbarLinksextend>
+            <NavbarLinksextend to="/">Home</NavbarLinksextend>
             <NavbarLinksextend to="/Aboutus">Aboutus</NavbarLinksextend>
             <NavbarLinksextend to="/Plans">Plans</NavbarLinksextend>
             <NavbarLinksextend to="/Contact">Contact</NavbarLinksextend>
