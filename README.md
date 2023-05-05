@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+*TravelGuide*
+Purpose of the website: 
+This website helps users to use it as a travelling support guide. This Virtual guide helps users to search for the list of places directly.
+The website is designed so that users can easily understand the usage.
+Ethics and responsibilities :
+Honest representation of the places the user can enjoy their visit. The emails and the information about their search will not be shared.
+Avoiding a lot of information and providing sorted information about what they need.
+Disclosing the information clearly.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Features of the website:
+The website contains one Home page and is followed by three subpages.
+The home page contains the representation of the website, its title and some links for the user to follow.
+The Aboutus page contains all the details and links of the website. And the users can know what the website is about.
+The Best Places page contains a list of places and some restaurants users can find near their trips. I have used API Fetching on this page to fetch and display the list of attractions available, and I also used the sorting method using some options to choose the best category restaurants.
+The final page is the contact form page. This page contains a form to be filled out by the users if they have any queries. Here on this page, I have implemented some validations for each field.
+Technical Implementation:
+Platform: Visual Studio code.
+Languages: React, Javascript.
 
-In the project directory, you can run:
+Other Implementations :
+Software registry: npm
+Packages covered: React, Global styled-components, React-router-dom, React-scroll-motion,@material-ui/core,@material-ui/Icons.
+API Integration : 
+references: 
+tripadvisor.com (can access information on hotels, restaurants, and attractions.)
 
-### `npm start`
+Sorting the data: sorting of data was developed on the third page of the website(i.e.Best Places page). Here on this page, I have used some restaurant data, which is stored in the js file and used some button options to fetch the cuisine category for the user to select and get the data filtered according to the chosen one.
+Assets: I have used a folder named Assets to store the images that have been used in several parts of the website.
+Challenges: The challenge I faced while developing the website was to re-arrange the API-fetched information according to the existing data in that API link. and also, in addition to that, the API link which I am currently using is registered and subscribed with my email. So after many testing attempts, I found a glitch in getting API-related data on the page as my subscription limit of using was completed. Again I registered it with another email account to ensure it works well. Balancing both designing effectively and maintaining the given time limit. 
+As a part of my contribution to this project, I have gone through all the 
+websites, videos and news around social media to get some knowledge on how similar websites are being used. Also, I have followed some of my 
+bachelor's books on web design.
+Skills Learnt:
+In the development process, as part of researching other websites and notes, I've learnt many new things such as routing Pages, Hooks called (userState, and userEffect), different and amazing packages for the design of the website, validations using react, Layout using flex boxes and grids, Targeting different devices with media Queries, adding positioning elements and many more in the react js. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+IMPORTANT NOTE: API-KEY which i used is registsered for limit number of uses.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Name of the student: Pamula Sreshta
+Student ID: SRE21537020
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
